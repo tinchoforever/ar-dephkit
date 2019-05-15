@@ -1,0 +1,105 @@
+body {
+	background-image: url('../img/white_panes.jpg');
+	background-size: cover;
+}
+
+body ::-webkit-scrollbar {
+    width: 0px;
+  }
+#loading-screen {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#loading-screen .vr_logo {
+	width: 7rem !important;
+	display: inline !important;
+}
+
+#loading-screen .thumb {
+	max-height: 25rem;
+	padding: 0em;
+	display: inline-block;
+}
+
+/* PROJECT TITLE */
+#loading-screen h1 {
+	font-family: 'Montserrat';
+	font-size: 50px;
+	font-weight: 400;
+	text-align: left;
+	color: #000000;
+}
+
+/* CREDITS TITLE */
+#loading-screen h2 {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 24px;
+	color: #000000
+}
+
+/* PROJECTS INSTRUCTIONS AND CREDITS */
+#loading-screen p {
+	font-family: 'Roboto';
+	font-weight: 200;
+	font-size: 18px;
+	color: #000000
+}
+
+#loading-screen .grid .row:nth-child(1) {
+	margin: 3% 0;
+}
+
+#loading-screen .grid .row:nth-child(2) .column {
+	background-color: white;
+}
+
+.credits {
+	overflow-y: auto;
+	height: 16em;
+	width: 80%;
+	line-height: 1em;
+	display: inline-block;
+}
+
+.credits::-webkit-scrollbar {
+	-webkit-appearance: none;
+	background-color: #767676;
+	border-radius: 3px;
+}
+
+.credits::-webkit-scrollbar:vertical {
+	width: 12px;
+}
+
+.credits::-webkit-scrollbar:horizontal {
+	height: 12px;
+}
+
+.credits::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	border: 2px solid white;
+	/* should match background, can't be transparent */
+	background-color: white;
+}
+
+.column.info {
+	border-top: 2px solid #767676;
+	border-bottom: 2px solid #767676;
+}
+
+
+#startButton {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	text-align: center;
+	z-index: 1000;
+	-webkit-transform: translateX(-50%)translateY(-50%);
+	-ms-transform: translateX(-50%)translateY(-50%);
+	transform: translateX(-50%)translateY(-50%);
+	width: 6rem;
+}
