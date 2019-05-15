@@ -16,7 +16,7 @@
 
 const MODEL_OBJ_URL = '../assets/Heart.obj';
 const MODEL_MTL_URL = '../assets/Heart.mtl';
-const MODEL_SCALE = 0.1;
+const MODEL_SCALE = 10;
 /**
  * Container class to manage connecting to the WebXR Device API
  * and handle rendering on every frame.
