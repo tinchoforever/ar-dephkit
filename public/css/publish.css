@@ -32,4 +32,7 @@ a {
 }
 #startButton{
 	text-decoration: underline;
+	width: 100%;
+	text-align: center;
+	
 }
